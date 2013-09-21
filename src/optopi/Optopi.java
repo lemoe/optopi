@@ -17,6 +17,11 @@ public class Optopi {
         // TODO code application logic here
         // Pi4J GPIO Controller erzeugen
         final GpioController gpio = GpioFactory.getInstance();
+        Pin a;
+     
+        gpio.export(PinMode.PWM_OUTPUT, new G);
+        
+        gpio.export(PinMode.PWM_OUTPUT, g1);
        
       
       
